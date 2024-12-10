@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style.css">
+    <title>PROGAMACION WEB</title>
+    <style>
+        body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav{
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    display: flex;
+    margin-right: 800px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    
+}
+
+
+nav a{
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav a{
+    display: flex;
+    margin-right: 35px;
+    color: #818181;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
+.subtitulos{
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid darkgrey;
+}
+
+
+.contenido{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid darkgrey;
+}
+
+
+.programa{
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    display: block;
+    margin: 20px auto;
+}
+
+
+
+.contacto{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 900px;
+}
+
+form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: blue;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 500px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: blue;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+img{
+    height: 400px;
+}
+    </style>
+</head>
+<body>
+        <nav>
+            <h1 href="#" class="logo">TechWorld</h1>
+                <a href="#Acerca de">Acerca de</a>
+                <a href="#Noticia">Noticia</a>
+                <a href="#Galeria">Galeria</a>
+                <a href="#contacto">Contacto</a>
+             </nav>
+            
+            <header>
+            <h1>Bienvinido a TechWorld</h1>
+            <p>Tu fuente de informacion las ultimas tecnologias e imnovaciones</p>
+            <label for="menu"><img src="/Imagen/Titulo.jpg" alt="Titulo"></label>
+            
+    </header>
+    
+
+<section id="Acerca de"></section>       
+<div class="subtitulos">
+    <h2>Acerca de nosotros</h2>
+</div>
+
+     <div class="container">
+        <p>En TechWorld, proporcionamos noticias, análisis y recursos sobre tecnología de punta, inteligencia artificial,<br>
+             desarrollo de software y más.</p>
+             <label for="menu"><img src="/Imagen/manos.jpg" alt="menu-icono"></label>
+            </div>
+
+            <br><br><br><br>
+
+            <section id="Noticia"></section> 
+             <div class="subtitulos">
+                <section id="Noticias"></section>  
+                <h2>Ultimas noticias</h2>
+            </div>
+               
+            <br> <br>
+
+             <div class="contenedor">
+             <h3>La IA revoluciona la industria</h3>
+             <p>La inteligencia artificial está transformando sectores como la salud,
+                 la educación y la industria automotriz. <br> Descubre cómo.</p>
+                 <label for="menu"><img src="/Imagen/IA.jpg" alt="menu-icono"></label>
+                </div>
+
+                <br><br><br>
+                
+
+                <div class="contenido">
+                    <h3>Las mejores herramientas para desarrolladores en 2024</h3>
+                    <p>Explora las herramientas más populares y eficientes para desarrolladores este año.</p>
+                    <br>
+                    <label for="menu"><img src="/Imagen/Herramienta.png" alt="menu-icono"></label>
+
+                </div>
+
+                <br><br>
+                <section id="Galeria"></section> 
+                <div class="subtitulos">
+                    <h1>Galería de Medios</h1>
+                </div>
+                
+
+                <div class="programa">
+                    <video controls src="/Probando la MEJOR Tecnología del MUNDO en CES 2024.mp4"></video>
+                    <p>Explora cómo la tecnología está cambiando el mundo en este video.</p>
+
+                </div>
+                <br><br>
+                <section id="contacto"></section>
+                <div class="subtitulos">
+                    <h1>Contactanos</h1>
+                </div>
+                <div class="contacto">
+                    <p>Si tienes preguntas o comentarios, completa el siguiente formulario:</p>
+                    <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="tu nombre">
+
+                        <label for="email">Correo electronico:</label>
+                        <input type="email" id="email" name="email" placeholder="tu correo electronico">
+
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aqui......" required></textarea>
+
+                        <button type="submit">Enviar</button>
+                        <br>
+
+                    </form>
+                    
+
+                </div>
+
+                <footer>
+                    <p>© 2024 MundoTecnológico. Todos los derechos reservados.</p>
+                </footer>
+
+
+
+</body>
+</html>
